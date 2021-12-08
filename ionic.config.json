@@ -1,0 +1,7 @@
+{
+  "name": "VorkoopApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

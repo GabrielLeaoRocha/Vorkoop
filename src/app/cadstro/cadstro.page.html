@@ -1,0 +1,50 @@
+<ion-header>  
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <div id="logo">
+      <p>Vorkoop</p>
+      <ion-button shape="round" style="position: absolute; margin-left: -200px; margin-top: -20px;" (click)="trocapagina_home()">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </div>
+    <div id="cadastro">
+      <ion-item style="margin-top: 20px;">
+        <ion-label position="floating">Nome completo</ion-label>
+        <ion-input [(ngModel)]="nome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input [(ngModel)]="email"></ion-input>
+      </ion-item>
+      <ion-radio-group [(ngModel)]="sexo">
+        <ion-item>
+        <ion-label>Masculino</ion-label>
+        <ion-radio value="1" color="light" slot="start"></ion-radio>
+        </ion-item>
+        <ion-item>
+        <ion-label>Feminino</ion-label>
+        <ion-radio value="2" color="light" slot="start" ></ion-radio>
+        </ion-item>
+       </ion-radio-group>
+       <ion-item>
+        <ion-label position="floating">Celular</ion-label>
+        <ion-input [(ngModel)]="celular"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Username</ion-label>
+        <ion-input [(ngModel)]="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input type="Password" [(ngModel)]="senha"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Confirme senha</ion-label>
+        <ion-input type="Password" [(ngModel)]="confirmSenha"></ion-input>
+      </ion-item>
+      <ion-button style="margin-top: 40px;" (click)="verificar_cadastro()">Cadastrar</ion-button>
+    </div>
+  </div>
+  </ion-content>

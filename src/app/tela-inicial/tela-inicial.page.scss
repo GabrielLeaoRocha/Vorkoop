@@ -1,0 +1,48 @@
+ion-content {
+    --background: #000000 url('../../assets/img/bg2.jpg') no-repeat center center !important;
+}  
+ion-item{
+    --background: #fff no-repeat center center / cover / ;
+}
+#logo p {    
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    font-family: Buckerley;  
+    color: rgb(0, 0, 0);
+}
+
+#main ion-button{
+    margin-left: 110px; 
+    margin-top: 10px; 
+    width: 200px;
+    height: 80px;    
+    --background: #d6ac20;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+}
+
+#main p{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+}
+
+#firstButton ion-button{
+    margin-top: 50px; 
+    width: 300px; 
+    height: 90px; 
+    margin-left: 55px;
+    --background: #cf7e05e3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+}

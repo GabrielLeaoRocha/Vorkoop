@@ -1,0 +1,38 @@
+<ion-header>  
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <div id="logo">
+      <p>Vorkoop</p>      
+      <ion-button shape="round" style="position: absolute; margin-left: -200px; margin-top: -140px;" (click)="trocapagina_telaInicial()">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </div>
+    <div id="cadastro">
+      <p>Cadastro de Produto</p>
+      <ion-item style="margin-top: 20px;">
+        <ion-label position="floating">Codigo do Produto</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Nome do Produto</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item style="margin-top: 40px;">
+        <ion-label>Unid Medida</ion-label>
+        <ion-select placeholder="Select One">
+        <ion-select-option value="1">Kg</ion-select-option>
+        <ion-select-option value="2">Lt</ion-select-option>
+        <ion-select-option value="3">Unit</ion-select-option>
+        </ion-select>
+        </ion-item>
+       <ion-item>
+        <ion-label position="floating">Valor</ion-label>
+        <ion-input type="Celular"></ion-input>
+      </ion-item>
+      
+      <ion-button style="margin-top: 40px;" (click)="presentAlert()">Cadastrar Produto</ion-button>
+    </div>   
+  </div>
+</ion-content>

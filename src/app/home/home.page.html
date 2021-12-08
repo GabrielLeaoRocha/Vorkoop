@@ -1,0 +1,29 @@
+
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container" >
+    <div id="logo">
+      <img src="../../assets/img/logo2.png">
+      <p>Vorkoop</p>
+    </div> 
+
+    <div id="login">
+      <ion-item>
+        <ion-label position="floating">Username</ion-label>
+        <ion-input [(ngModel)]="nome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Password</ion-label>
+        <ion-input type="Password" [(ngModel)]="senha"></ion-input>
+      </ion-item>
+      
+      <br>
+      <ion-button (click)="trocapagina_pagInicial()">Entrar</ion-button>
+      <br><br><br>
+      <ion-button (click)="trocapagina_cadastro()">Cadastre-se</ion-button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id= "logo">
+    <p>Vorkoop</p>      
+  </div>
+  <div id="main">
+    <p>Bem-vindo {{nome}}</p>
+    <div id="firstButton">
+      <ion-button shape="round" (click)="navegarPaginaRealizarVendas()">Realizar venda</ion-button>
+    </div> 
+    <ion-button shape="round" (click)="navegarPaginaVisualizarEstoque()">Visualizar estoque</ion-button>
+    <br>
+    <ion-button shape="round" (click)="trocapagina_cadastroProduto()">Cadastrar produto</ion-button>
+  </div> 
+</ion-content>
+
+<ion-footer>
+  <div id="main">
+    <p>Total vendido: R$ {{valorTotalVendito}}</p>
+  </div>  
+</ion-footer>

@@ -1,0 +1,84 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 50px;
+  line-height: 50px;
+  //font-family: 
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #949494;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+ 
+
+ion-content {
+  --background: #000000 url('../../assets/img/bg2.jpg') no-repeat center center !important;
+}
+
+
+ion-item{
+  --background: #fff no-repeat center center / cover / ;
+}
+
+#logo p {
+  position: static;
+  margin-top: -100px;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 60px;
+  font-family: Buckerley;  
+  color: rgb(0, 0, 0);
+}
+
+#logo img {
+  height: 100px;
+  position: fixed;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+@font-face {
+  font-family: Buckerley;
+  src: url(../fonts/Buckerley.ttf);
+}
+
+#login{
+  position: fixed;
+  border-radius: 10px;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+#login ion-button{
+  width: 200px;
+  --background: #1b1a1a;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#login ion-label{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+:root {
+  --ion-font-family: 'Gill Sans';
+}
